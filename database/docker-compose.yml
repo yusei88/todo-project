@@ -7,4 +7,4 @@ services:
       context: postgresql
       dockerfile: Dockerfile
     environment:
-      POSTGRES_PASSWORD: password
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
