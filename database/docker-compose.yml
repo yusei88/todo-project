@@ -1,7 +1,7 @@
-version: '3.7'
+version: '3.8'
 
 services:
-  db:
+  postgresql:
     restart: always
     build:
       context: postgresql
